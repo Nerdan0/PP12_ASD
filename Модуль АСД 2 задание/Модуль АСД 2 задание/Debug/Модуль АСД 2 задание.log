@@ -1,4 +1,0 @@
-﻿  Source.cpp
-C:\Users\User\Desktop\Модуль АСД 2 задание\Модуль АСД 2 задание\Source.cpp(31,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\User\Desktop\Модуль АСД 2 задание\Модуль АСД 2 задание\Source.cpp(47,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Модуль АСД 2 задание.vcxproj -> C:\Users\User\Desktop\Модуль АСД 2 задание\Debug\Модуль АСД 2 задание.exe
