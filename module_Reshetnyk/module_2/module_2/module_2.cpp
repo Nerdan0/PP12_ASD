@@ -1,4 +1,8 @@
-﻿#include <stdlib.h> 
+//ПП-12
+//Решетник Денис
+//Варіант 2
+//Завдання 2
+#include <stdlib.h> 
 #include <iostream>
 using namespace std;
 void choose();
