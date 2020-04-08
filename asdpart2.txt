@@ -1,0 +1,85 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class module2 {
+    public static void main(String args[]) {
+        int bestresult=-1;
+        int worstresult=-1;
+        int mas[];
+        int i, i1,i2,i3;
+        int gn;
+        int min=2147483647;
+        int max=-2147483648;
+        mas = new int[10];
+
+        Random rnd = new Random(System.currentTimeMillis());
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введіть кількість ігор від 1 до 100");
+        int n = in.nextInt();
+
+        while (true) {
+            System.out.println("\n1. Заповнити вручну" +
+                    "\n2. Заповнити рандомно");
+            int e = in.nextInt();
+            switch (e) {
+
+                case 1:
+                    Scanner sc1 = new Scanner(System.in);
+                    System.out.println("Введіть,будь ласка,результати ігор");
+                    for (i = 0; i < n; i++) {
+                        mas[i] = in.nextInt();
+                    }
+
+                    System.out.println("Результати ігор");
+                    for (i = 0; i < n; i++) {
+                        System.out.print(mas[i] + " ");
+                    }
+
+                    for (i=0;i<n;i++)
+                    {
+                        if (mas[i]<min){
+                            min=mas[i];
+                            worstresult = worstresult+1;
+                        }
+                    }
+                    for (i1=0;i1<n;i1++)
+                    {
+                        if (mas[i1]>max){
+                            max=mas[i1];
+                            bestresult=bestresult+1;
+                        }
+                    }
+                    System.out.println("\n Кількість зросту " + bestresult);
+                    System.out.println("\n Кількість спаду " + worstresult);
+                    break;
+                case 2:
+                    System.out.println("Заповнити автоматично");
+                    for (i1 = 0; i1 < n; i1++) {
+                        mas[i1] = (int) Math.round((Math.random() * 1000));
+                    }
+
+                    System.out.println("Рандомні результати");
+                    for (i1 = 0; i1 < n; i1++) {
+                        System.out.print(mas[i1] + " ");
+                    }
+                    for (i=0;i<n;i++)
+                    {
+                        if (mas[i]<min){
+                            min=mas[i];
+                            worstresult = worstresult+1;
+                        }
+                    }
+                    for (i1=0;i1<n;i1++)
+                    {
+                        if (mas[i1]>max){
+                            max=mas[i1];
+                            bestresult=bestresult+1;
+                        }
+                    }
+                    System.out.println("\n Кількість зросту " + bestresult);
+                    System.out.println("\n Кількість спаду " + worstresult);
+                    break;
+            }
+        }
+    }
+}
