@@ -1,0 +1,88 @@
+import java.util.Scanner;
+//варіант 6 Петруненко В. ПП12
+//2 завдання
+public class PetrunenkoModule2AsdPP12 {
+
+    public static void main(String args[]) {
+        int n, m;
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("1 - ручне заповнення");
+        System.out.println("2 - автоматичне заповнення");
+        if (in.hasNextInt()) {
+            m = in.nextInt();
+            if (m < 1 && m > 2) {
+                System.out.println("спробуйте ще раз");
+                return;
+            } else {
+                if (m == 1) {
+
+                    System.out.println("Скільки ігр?");
+                    if (in.hasNextInt()) {
+                        n = in.nextInt();
+                        if (n <= 0 || n > 100) {
+                            System.out.println("спробуйте ще раз");
+                            return;
+                        }
+                    } else {
+                        System.out.println("спробуйте ще раз");
+                        return;
+                    }
+                    double[][] game = new double[n][3];
+                    for (int i = 0; i < n; i++) {
+                        System.out.println("введіть результат гри " + (i + 1));
+                        if (in.hasNextInt()) {
+                            game[i][0] = in.nextInt();
+                        } else {
+                            System.out.println("спробуйте ще раз");
+                            return;
+                        }
+                        game[0][1] = game[0][0];
+                        game[0][2] = game[0][0];
+                        if (i > 0 && game[i][0] > game[i - 1][1]) {
+                            game[i][1] = game[i][0];
+                        } else if (i == 0) {
+                        } else {
+                            game[i][1] = game[i - 1][1];
+                        }
+                        if (i > 0 && game[i][0] < game[i - 1][2]) {
+                            game[i][2] = game[i][0];
+                        } else if (i == 0) {
+                        } else {
+                            game[i][2] = game[i - 1][2];
+                        }
+                    }
+                    for (int i = 0; i < n; i++) {
+                        System.out.println(String.format(" %d | %4.0f | %4.0f | %4.0f ", i + 1, game[i][0], game[i][1], game[i][2]));
+                    }
+                }
+                else if(m==2){
+                    n=10;
+                    double[][] game = new double[n][3];
+                    for (int i = 0; i < n; i++) {
+                        game[i][0] = Math.random()*1000;
+
+                        game[0][1] = game[0][0];
+                        game[0][2] = game[0][0];
+                        if (i > 0 && game[i][0] > game[i - 1][1]) {
+                            game[i][1] = game[i][0];
+                        } else if (i == 0) {
+                        } else {
+                            game[i][1] = game[i - 1][1];
+                        }
+                        if (i > 0 && game[i][0] < game[i - 1][2]) {
+                            game[i][2] = game[i][0];
+                        } else if (i == 0) {
+                        } else {
+                            game[i][2] = game[i - 1][2];
+                        }
+                    }
+                    for (int i = 0; i < n; i++) {
+                        System.out.println(String.format(" %d | %4.0f | %4.0f | %4.0f ", i + 1, game[i][0], game[i][1], game[i][2]));
+                    }
+                }
+            }
+        }
+        else{System.out.println("спробуйте ще раз");}
+    }
+}
