@@ -1,0 +1,13 @@
+﻿  ModuleTest(Shevtsov).cpp
+c:\users\shevc\source\repos\алгоритми та структури даних\moduletest(shevtsov)\moduletest(shevtsov)\moduletest(shevtsov).cpp(79): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\shevc\source\repos\алгоритми та структури даних\moduletest(shevtsov)\moduletest(shevtsov)\moduletest(shevtsov).cpp(82): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\shevc\source\repos\алгоритми та структури даних\moduletest(shevtsov)\moduletest(shevtsov)\moduletest(shevtsov).cpp(88): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\shevc\source\repos\алгоритми та структури даних\moduletest(shevtsov)\moduletest(shevtsov)\moduletest(shevtsov).cpp(98): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\shevc\source\repos\алгоритми та структури даних\moduletest(shevtsov)\moduletest(shevtsov)\moduletest(shevtsov).cpp(101): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\shevc\source\repos\алгоритми та структури даних\moduletest(shevtsov)\moduletest(shevtsov)\moduletest(shevtsov).cpp(120): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\shevc\source\repos\алгоритми та структури даних\moduletest(shevtsov)\moduletest(shevtsov)\moduletest(shevtsov).cpp(123): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\shevc\source\repos\алгоритми та структури даних\moduletest(shevtsov)\moduletest(shevtsov)\moduletest(shevtsov).cpp(180): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\shevc\source\repos\алгоритми та структури даних\moduletest(shevtsov)\moduletest(shevtsov)\moduletest(shevtsov).cpp(185): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\shevc\source\repos\алгоритми та структури даних\moduletest(shevtsov)\moduletest(shevtsov)\moduletest(shevtsov).cpp(194): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\shevc\source\repos\алгоритми та структури даних\moduletest(shevtsov)\moduletest(shevtsov)\moduletest(shevtsov).cpp(201): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  ModuleTest(Shevtsov).vcxproj -> C:\Users\shevc\source\repos\Алгоритми та структури даних\ModuleTest(Shevtsov)\Debug\ModuleTest(Shevtsov).exe
