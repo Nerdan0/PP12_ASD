@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d225dcaa-e674-46a0-b6d3-756d0d33d318" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1aFRsuDr4ln8NTRMTOgOED9okqo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ASDmod" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d225dcaa-e674-46a0-b6d3-756d0d33d318" name="Default Changelist" comment="" />
+      <created>1586329565304</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586329565304</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1858" height="493" key="GridCell.Tab.0.bottom" timestamp="1586341044586">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1858" height="493" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586341044586" />
+    <state width="1858" height="493" key="GridCell.Tab.0.center" timestamp="1586341044583">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1858" height="493" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586341044583" />
+    <state width="1858" height="493" key="GridCell.Tab.0.left" timestamp="1586341044581">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1858" height="493" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586341044581" />
+    <state width="1858" height="493" key="GridCell.Tab.0.right" timestamp="1586341044584">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1858" height="493" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586341044584" />
+    <state x="510" y="289" key="com.intellij.ide.util.TipDialog" timestamp="1586329610419">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="510" y="289" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586329610419" />
+    <state x="383" y="75" width="1154" height="928" key="find.popup" timestamp="1586335801651">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="383" y="75" width="1154" height="928" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586335801651" />
+    <state x="455" y="238" key="run.anything.popup" timestamp="1586338037633">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="455" y="238" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586338037633" />
+  </component>
+</project>
