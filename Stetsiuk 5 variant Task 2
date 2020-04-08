@@ -1,10 +1,7 @@
 /*Task2*/package com.company.Main;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
 public class Task2 {
-
     public Task2(){
         Scanner scan = new Scanner(System.in);
         boolean error = true;
